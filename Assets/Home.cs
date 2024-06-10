@@ -9,4 +9,8 @@ public class Home : MonoBehaviour
     {
         SceneManager.LoadScene("Redeem");
     }
+    public void GoToMenu()
+    {
+        SceneManager.LoadScene("ARMenu");
+    }
 }

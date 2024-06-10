@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ARMenu.unity
     guid: 92ce0b34c0864204a9bcbceb2fd3bd39
+  - enabled: 1
+    path: Assets/Scenes/Redeem2.unity
+    guid: d123296e76ab1ac4db3eb5bf91d1bd0c
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af,
       type: 2}

@@ -212,9 +212,9 @@ public class ARTemplateMenuManager : MonoBehaviour
     {
         m_ScreenSpaceController.dragCurrentPositionAction.action.started += HideTapOutsideUI;
         m_ScreenSpaceController.tapStartPositionAction.action.started += HideTapOutsideUI;
-        m_CreateButton.onClick.AddListener(ShowMenu);
-        m_CancelButton.onClick.AddListener(HideMenu);
-        m_DeleteButton.onClick.AddListener(DeleteFocusedObject);
+        //m_CreateButton.onClick.AddListener(ShowMenu);
+        //.onClick.AddListener(HideMenu);
+        //m_DeleteButton.onClick.AddListener(DeleteFocusedObject);
         m_PlaneManager.planesChanged += OnPlaneChanged;
     }
 
@@ -226,9 +226,9 @@ public class ARTemplateMenuManager : MonoBehaviour
         m_ShowObjectMenu = false;
         m_ScreenSpaceController.dragCurrentPositionAction.action.started -= HideTapOutsideUI;
         m_ScreenSpaceController.tapStartPositionAction.action.started -= HideTapOutsideUI;
-        m_CreateButton.onClick.RemoveListener(ShowMenu);
-        m_CancelButton.onClick.RemoveListener(HideMenu);
-        m_DeleteButton.onClick.RemoveListener(DeleteFocusedObject);
+        //m_CreateButton.onClick.RemoveListener(ShowMenu);
+        //m_CancelButton.onClick.RemoveListener(HideMenu);
+        //m_DeleteButton.onClick.RemoveListener(DeleteFocusedObject);
         m_PlaneManager.planesChanged -= OnPlaneChanged;
     }
 
